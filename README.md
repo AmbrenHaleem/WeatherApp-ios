@@ -4,5 +4,7 @@ A simple weather app built for iOS using XCode. It displays a 7 days weather for
 ## Features
 
 Users can search any location weather after entering the location.
+
 Users can see the 7-day weather forecast of searched location.
+
 Users can check the history of searched location weather.
