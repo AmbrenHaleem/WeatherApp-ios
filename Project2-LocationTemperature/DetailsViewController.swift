@@ -84,7 +84,7 @@ class DetailsViewController: UIViewController {
     private func getURL(query: String, day: Int) -> URL? {
         let baseUrl = "https://api.weatherapi.com/v1/"
         let currentEndpoint = "forecast.json"
-        let apiKey = "4190abd1e49c475aa1a134634232903"
+        let apiKey = "Add your api key"
         guard let url = "\(baseUrl)\(currentEndpoint)?key=\(apiKey)&q=\(query)&days=\(day)"
             .addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else
         {
